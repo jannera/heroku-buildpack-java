@@ -18,7 +18,7 @@ unset GIT_DIR
 # Load some convenience functions like status(), echo(), and indent()
 source $bp_dir/bin/common.sh
 
-source "$build_dir/_git.cfg"
+# source "$build_dir/_git.cfg"
 
 if [ $GIT_VERSION ] && [ ! $git_version ]; then
   git_version=$GIT_VERSION
